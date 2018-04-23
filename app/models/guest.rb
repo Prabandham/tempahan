@@ -1,4 +1,5 @@
 class Guest < ApplicationRecord
+  has_many :reservations
   validates :name, :email, presence: true
   validates :email, uniqueness: true
   # source http://www.regular-expressions.info/email.html

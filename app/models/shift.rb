@@ -1,5 +1,6 @@
 class Shift < ApplicationRecord
   belongs_to :restaturant
+  has_many :reservations
 
   validate :end_time_should_be_greater_than_start_time
 
