@@ -46,6 +46,6 @@ class ShiftsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def restaurant_shift_params
-      params.require(:shift).permit(:name, :start_time, :end_time, :restaturant_id)
+      params.require(:shift).permit(:name, :start_time, :end_time, :restaurant_id)
     end
 end

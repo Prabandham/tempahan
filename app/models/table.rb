@@ -1,3 +1,3 @@
 class Table < ApplicationRecord
-  belongs_to :restaturant
+  belongs_to :restaurant
 end

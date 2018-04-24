@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   resources :restaurants
   resources :guests
   get 'reservations/list/', to: 'reservations#list'
-  get 'reservations/create', to: 'reservations#create'
-  get 'reservations/update', to: 'reservations#update'
+  post 'reservations/create', to: 'reservations#create'
+  post 'reservations/update', to: 'reservations#update'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

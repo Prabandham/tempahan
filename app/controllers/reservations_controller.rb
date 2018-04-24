@@ -4,6 +4,12 @@ class ReservationsController < ApplicationController
   end
 
   def create
+    reservation = Reservation.new(create_reservation_params)
+    if reservation.save
+      render json: reservation and return
+    else
+      render json: reservation.errors and return
+    end
   end
 
   def update
@@ -13,5 +19,10 @@ class ReservationsController < ApplicationController
   def list_params
     params.require(:restaurant_id)
     params.permit(:restaurant_id)
+  end
+
+  def create_reservation_params
+    params.require([:restaurant_id, :guest_id, :table_id, :shift_id, :time_slot, :guest_count])
+    params.permit(:restaurant_id, :guest_id, :table_id, :shift_id, :time_slot, :guest_count)
   end
 end

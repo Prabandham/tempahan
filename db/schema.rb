@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_04_23_152855) do
+ActiveRecord::Schema.define(version: 2018_04_24_062523) do
 
   create_table "guests", force: :cascade do |t|
     t.string "name"
@@ -26,9 +26,12 @@ ActiveRecord::Schema.define(version: 2018_04_23_152855) do
     t.integer "guest_count"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "time_slot"
+    t.integer "table_id"
     t.index ["guest_id"], name: "index_reservations_on_guest_id"
     t.index ["restaurant_id"], name: "index_reservations_on_restaurant_id"
     t.index ["shift_id"], name: "index_reservations_on_shift_id"
+    t.index ["table_id"], name: "index_reservations_on_table_id"
   end
 
   create_table "restaurants", force: :cascade do |t|
@@ -41,22 +44,22 @@ ActiveRecord::Schema.define(version: 2018_04_23_152855) do
 
   create_table "shifts", force: :cascade do |t|
     t.string "name"
-    t.datetime "start_time"
-    t.datetime "end_time"
-    t.integer "restaturant_id"
+    t.time "start_time"
+    t.time "end_time"
+    t.integer "restaurant_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["restaturant_id"], name: "index_shifts_on_restaturant_id"
+    t.index ["restaurant_id"], name: "index_shifts_on_restaurant_id"
   end
 
   create_table "tables", force: :cascade do |t|
     t.string "name"
-    t.integer "minimum_capity"
+    t.integer "minimum_capacity"
     t.integer "maximum_capacity"
-    t.integer "restaturant_id"
+    t.integer "restaurant_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["restaturant_id"], name: "index_tables_on_restaturant_id"
+    t.index ["restaurant_id"], name: "index_tables_on_restaurant_id"
   end
 
 end

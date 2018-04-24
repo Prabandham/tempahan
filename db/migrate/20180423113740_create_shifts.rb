@@ -4,7 +4,7 @@ class CreateShifts < ActiveRecord::Migration[5.2]
       t.string :name
       t.datetime :start_time
       t.datetime :end_time
-      t.references :restaturant, foreign_key: true
+      t.references :restaurant, foreign_key: true
 
       t.timestamps
     end
