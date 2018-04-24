@@ -6,6 +6,8 @@ class ReservationsController < ApplicationController
   def create
     reservation = Reservation.new(create_reservation_params)
     if reservation.save
+      NotifyGuestOnReservationMailer.with(reservation: reservation.id).confirmation_message.deliver
+      NotifyRestaurantOnReservationMailer.with(reservation: reservation.id).confirmation_message.deliver
       render json: reservation and return
     else
       render json: reservation.errors and return
