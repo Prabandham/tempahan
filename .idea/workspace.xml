@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1bd961f-5cbe-4b59-9e4e-4e203904d8f2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/reservations_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/reservations_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -38,31 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="21">
+              <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <file leaf-file-name="welcome_controller.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-897">
-              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+            <state relative-caret-position="42">
+              <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -118,10 +109,11 @@
         <option value="$PROJECT_DIR$/app/views/notify_guest_on_reservation_mailer/confirmation_update_message.html.erb" />
         <option value="$PROJECT_DIR$/app/mailers/notify_restaurant_on_reservation_mailer.rb" />
         <option value="$PROJECT_DIR$/app/views/notify_restaurant_on_reservation_mailer/confirmation_update_message.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/reservations_controller.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/controllers/reservations_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
       </list>
     </option>
   </component>
@@ -197,6 +189,12 @@
             <path>
               <item name="tempahan" type="b2602c69:ProjectViewProjectNode" />
               <item name="tempahan" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tempahan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tempahan" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -227,7 +225,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="routes&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/config/routes.rb&#10;gem&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/Gemfile&#10;tables&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/spec/factories/tables.rb&#10;shifts&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/spec/factories/shifts.rb&#10;create_re&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/db/migrate/20180423152855_create_reservations.rb&#10;table.rb&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/table.rb&#10;create_&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/db/migrate/20180423113839_create_tables.rb&#10;create_tables&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/db/migrate/20180423113839_create_tables.rb&#10;create_shif&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/db/migrate/20180423113740_create_shifts.rb&#10;shift&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/shift.rb&#10;restaurant&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/restaurant.rb&#10;guest.rb&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/guest.rb&#10;reser&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/reservation.rb&#10;reserva&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/reservation.rb&#10;tables_con&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/controllers/tables_controller.rb&#10;res&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/restaurant.rb&#10;gues.&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/guest.rb&#10;application_con&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/controllers/application_controller.rb&#10;routes.rb&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/config/routes.rb&#10;devel&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/config/environments/development.rb&#10;create&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/db/migrate/20180423113740_create_shifts.rb&#10;shi&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/shift.rb" />
+    <property name="SearchEverywhereHistoryKey" value="welc&#9;null&#9;null&#10;reser&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/reservation.rb&#10;routes&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/config/routes.rb&#10;gem&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/Gemfile&#10;tables&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/spec/factories/tables.rb&#10;shifts&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/spec/factories/shifts.rb&#10;create_re&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/db/migrate/20180423152855_create_reservations.rb&#10;table.rb&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/table.rb&#10;create_&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/db/migrate/20180423113839_create_tables.rb&#10;create_tables&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/db/migrate/20180423113839_create_tables.rb&#10;create_shif&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/db/migrate/20180423113740_create_shifts.rb&#10;shift&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/shift.rb&#10;restaurant&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/restaurant.rb&#10;guest.rb&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/guest.rb&#10;reserva&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/reservation.rb&#10;tables_con&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/controllers/tables_controller.rb&#10;res&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/restaurant.rb&#10;gues.&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/guest.rb&#10;application_con&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/controllers/application_controller.rb&#10;routes.rb&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/config/routes.rb&#10;devel&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/config/environments/development.rb&#10;create&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/db/migrate/20180423113740_create_shifts.rb&#10;shi&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/shift.rb" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -369,7 +367,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18507000" />
+    <option name="totallyTimeSpent" value="19011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -405,13 +403,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="75" column="12" lean-forward="false" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20180423111232_create_guests.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -706,42 +697,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/reservations_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="92" lean-forward="false" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/reservation.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="37" column="39" lean-forward="false" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="2" lean-forward="false" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-897">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -754,10 +713,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/reservation.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/reservations_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="21">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
           <folding />
         </state>
       </provider>

@@ -1,7 +1,12 @@
 class ReservationsController < ApplicationController
   before_action :set_reservation, only: [:update]
+
   def list
-    render json: Reservation.where(restaurant_id: list_params['restaurant_id'])
+    reservations = Reservation.where(restaurant_id: list_params['restaurant_id'])
+    data = reservations.map do |reservation|
+      { slot: reservation.time_slot, guests_count: reservation.guest_count, guest_name: reservation.guest.name, table_name: reservation.table.name }
+    end
+    render json: data
   end
 
   def create
