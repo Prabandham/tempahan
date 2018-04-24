@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
   def index
-    render text: "up and running"
+    render json: { status: 'success', message: 'Up and Running' }
   end
 end
