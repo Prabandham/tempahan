@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1bd961f-5cbe-4b59-9e4e-4e203904d8f2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/controllers/guests_controller_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/controllers/restaurants_controller_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/controllers/shifts_controller_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/controllers/tables_controller_spec.rb" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/reservations.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/reservation_spec.rb" afterPath="$PROJECT_DIR$/spec/models/reservation_spec.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -32,7 +30,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reservations_controller_spec.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reservations_controller_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/controllers/reservations_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="483">
@@ -42,21 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tables.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/factories/tables.rb">
+      <file leaf-file-name="reservation_spec.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/models/reservation_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="table.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/table.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="63" lean-forward="false" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+            <state relative-caret-position="609">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,7 +92,6 @@
         <option value="$PROJECT_DIR$/spec/controllers/reservations_controller_spec.rb" />
         <option value="$PROJECT_DIR$/spec/factories/guests.rb" />
         <option value="$PROJECT_DIR$/spec/models/guest_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/models/reservation_spec.rb" />
         <option value="$PROJECT_DIR$/spec/factories/restaurants.rb" />
         <option value="$PROJECT_DIR$/spec/models/restaurant_spec.rb" />
         <option value="$PROJECT_DIR$/spec/factories/shifts.rb" />
@@ -112,6 +99,8 @@
         <option value="$PROJECT_DIR$/spec/factories/tables.rb" />
         <option value="$PROJECT_DIR$/app/models/table.rb" />
         <option value="$PROJECT_DIR$/spec/models/table_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/factories/reservations.rb" />
+        <option value="$PROJECT_DIR$/spec/models/reservation_spec.rb" />
       </list>
     </option>
   </component>
@@ -184,6 +173,18 @@
               <item name="tempahan" type="462c0819:PsiDirectoryNode" />
               <item name="spec" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tempahan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tempahan" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="factories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tempahan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tempahan" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -195,7 +196,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="table.rb&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/table.rb&#10;create_&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/db/migrate/20180423113839_create_tables.rb&#10;create_tables&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/db/migrate/20180423113839_create_tables.rb&#10;create_shif&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/db/migrate/20180423113740_create_shifts.rb&#10;shift&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/shift.rb&#10;restaurant&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/restaurant.rb&#10;guest.rb&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/guest.rb&#10;gem&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/Gemfile&#10;reser&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/reservation.rb&#10;create_re&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/db/migrate/20180423152855_create_reservations.rb&#10;reserva&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/reservation.rb&#10;routes&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/config/routes.rb&#10;tables_con&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/controllers/tables_controller.rb&#10;res&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/restaurant.rb&#10;gues.&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/guest.rb&#10;application_con&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/controllers/application_controller.rb&#10;routes.rb&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/config/routes.rb&#10;devel&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/config/environments/development.rb&#10;create&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/db/migrate/20180423113740_create_shifts.rb&#10;shi&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/shift.rb" />
+    <property name="SearchEverywhereHistoryKey" value="tables&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/spec/factories/tables.rb&#10;shifts&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/spec/factories/shifts.rb&#10;create_re&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/db/migrate/20180423152855_create_reservations.rb&#10;table.rb&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/table.rb&#10;create_&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/db/migrate/20180423113839_create_tables.rb&#10;create_tables&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/db/migrate/20180423113839_create_tables.rb&#10;create_shif&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/db/migrate/20180423113740_create_shifts.rb&#10;shift&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/shift.rb&#10;restaurant&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/restaurant.rb&#10;guest.rb&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/guest.rb&#10;gem&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/Gemfile&#10;reser&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/reservation.rb&#10;reserva&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/reservation.rb&#10;routes&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/config/routes.rb&#10;tables_con&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/controllers/tables_controller.rb&#10;res&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/restaurant.rb&#10;gues.&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/guest.rb&#10;application_con&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/controllers/application_controller.rb&#10;routes.rb&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/config/routes.rb&#10;devel&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/config/environments/development.rb&#10;create&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/db/migrate/20180423113740_create_shifts.rb&#10;shi&#9;FILE&#9;file:///Users/icicle/Spikes/ruby/tempahan/app/models/shift.rb" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -326,17 +327,18 @@
       <option name="presentableId" value="Default" />
       <updated>1524481425555</updated>
       <workItem from="1524481427083" duration="3940000" />
-      <workItem from="1524497056518" duration="11264000" />
+      <workItem from="1524497056518" duration="12341000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15204000" />
+    <option name="totallyTimeSpent" value="16281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -485,14 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180423152855_create_reservations.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20180424061824_add_table_id_to_reservations.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -597,14 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/reservation_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/guest_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -669,34 +655,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/factories/shifts.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20180423113839_create_tables.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/table.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="63" lean-forward="false" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/factories/tables.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -721,6 +683,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180423152855_create_reservations.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/table.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="63" lean-forward="false" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories/reservations.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories/tables.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories/shifts.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/reservation_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
