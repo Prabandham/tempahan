@@ -29,4 +29,11 @@ RSpec.describe Reservation, type: :model do
     expect(reservation.valid?).to eq(false)
     expect(reservation.errors.messages[:guest_count]).to eq(["Should be between 2 - 4"])
   end
+
+  it 'should save a reservation' do
+    reservation_params = { guest_id: guest.id, restaurant_id: restaurant.id, shift_id: shift.id, table_id: table.id, time_slot: "11:00 AM", guest_count: 2 }
+    reservation = Reservation.new(reservation_params)
+    reservation.save
+    expect(reservation.valid?).to eq(true)
+  end
 end
